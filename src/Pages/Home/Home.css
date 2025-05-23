@@ -99,7 +99,7 @@
 
 .aboutInfo img {
     width: 45%;
-    border: 1px solid black;
+    border-radius: 5px;
 }
 
 
@@ -164,4 +164,46 @@
 
 .optionContent p {
     color: rgb(87, 86, 86);
+}
+
+@media(max-width:1000px){
+
+.optionContent h5 {
+    font-size: 12px;
+}
+
+.optionContent p {
+    font-size: 10px;
+}
+
+}
+
+@media(max-width:900px) {
+
+    .home .aboutInfo {
+        flex-direction: column;
+    }
+
+    .aboutInfo .content {
+        width: 90%;
+    }
+
+    .aboutInfo img {
+        width: 60%;
+    }
+}
+
+@media(max-width:750px){
+    .home .welcomeCard {
+    width: 80%;
+
+
+}
+    .serviceOptions .option {
+    width: 100%;
+    height: 25vh;
+}
+.aboutInfo img {
+        width: 90%;
+    }
 }
