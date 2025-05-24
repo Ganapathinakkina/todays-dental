@@ -1,0 +1,67 @@
+.servicePage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px;
+    background-color: #ddecf8;
+}
+
+.servicePage .serviceTitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.serviceTitle h2{
+    font-size: 28px;
+    color: #105da1;
+    background-color: transparent;
+}
+
+.servicePage .serviceCards{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 40px;
+   padding: 10px;
+   background-color: transparent;
+}
+
+.serviceCards .card{
+    width: 300px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   gap: 20px;
+   padding: 20px;
+   box-shadow: 3px 2px 10px 1px rgb(167, 181, 185);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.serviceCards .card:hover{
+transform: scale(1.05);
+box-shadow: 3px 2px 10px 1px rgb(104, 152, 168);
+}
+
+.card img{
+    width: 20%;
+    /* height: 70px; */
+}
+.card h3{
+    font-size: 22px;
+    color: #105da1;
+}
+.card p{
+    font-size: 16px;
+    color: grey;
+}
