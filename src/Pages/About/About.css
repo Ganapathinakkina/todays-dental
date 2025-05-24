@@ -1,0 +1,288 @@
+.aboutPage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 50px;
+    background-color: #ddecf8;
+}
+
+.aboutPage .clinicInfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    background-color: transparent;
+}
+
+.clinicInfo .clinicInfoContent {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: transparent;
+    gap: 15px;
+}
+
+.clinicInfoContent h2 {
+    font-size: 28px;
+    color: #105da1;
+    background-color: transparent;
+}
+
+.clinicInfoContent p {
+    font-size: 14px;
+    text-align: justify;
+    background-color: transparent;
+}
+
+
+.clinicInfo .sliderImgs{
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ddecf8;
+}
+
+.sliderImgs img{
+    width: 100%;
+    border-radius: 5px;
+    background-color: #ddecf8;
+}
+
+.slick-slide>div {
+    margin: 0 0;
+}
+
+.slick-list {
+    margin: 0 0;
+}
+
+.aboutPage .doctorsSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    gap: 50px;
+    padding: 50px;
+}
+
+.doctorsSection h2 {
+    font-size: 28px;
+    color: #105da1;
+    background-color: transparent;
+}
+
+.doctorsSection .doctors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.doctorsSection .doctors h2 {
+    font-size: 28px;
+    color: #105da1;
+    background-color: transparent;
+}
+
+.doctors .cards {
+    width: 500px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 3px 2px 10px 1px rgb(176, 196, 202);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.doctors .cards:hover {
+    transform: scale(1.03);
+    box-shadow: 3px 2px 10px 2px rgb(156, 206, 223);
+}
+
+.cards .cardImg {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cards .cardImg img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.cardImg button {
+    padding: 10px 20px;
+    color: white;
+    background-color: #3471a5;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.cardImg button:hover {
+    transform: scale(1.03);
+    background-color: #105da1;
+}
+
+.cards .doctorInfo {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: justify;
+    gap: 7px;
+}
+
+.doctorInfo h3 {
+    font-size: 22px;
+    color: #105da1;
+    margin-bottom: 10px;
+}
+
+.doctorInfo p {
+    font-size: 12px;
+    color: grey;
+}
+
+.doctorInfo p span {
+    color: black;
+}
+
+.doctorInfo .specialization {
+    font-size: 12px;
+    color: #4b94d3;
+}
+
+.doctorInfo .specialization span {
+    color: black;
+}
+
+.doctorInfo h6 {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
+.aboutPage .mission {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+}
+
+.mission h2 {
+    font-size: 28px;
+    color: #105da1;
+}
+
+.mission p {
+    font-size: 16px;
+    color: rgb(67, 66, 66);
+}
+
+.mission .endQuote {
+    font-size: 14px;
+    color: rgb(87, 86, 86);
+    color: orange;
+}
+
+
+@media(max-width:750px) {
+    .aboutPage {
+        padding: 20px;
+    }
+
+    .aboutPage .clinicInfo {
+        flex-direction: column;
+    }
+
+    .clinicInfo .clinicInfoContent {
+        width: 100%;
+    }
+
+    .clinicInfo .sliderImgs {
+        width: 90%;
+    }
+
+    .aboutPage .doctorsSection {
+        padding: 10px;
+        gap: 30px;
+        background-color: transparent;
+    }
+
+    .doctorsSection h2 {
+        text-decoration: underline;
+    }
+
+    .doctorsSection .doctors {
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .doctors .cards {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .doctors .cards:hover {
+        transform: scale(1.03);
+        box-shadow: 3px 2px 10px 2px rgb(60, 112, 129);
+    }
+
+    .cards .cardImg {
+        width: 100%;
+
+    }
+
+    .cards .cardImg img {
+        width: 180px;
+        height: 150px;
+    }
+
+    .cardImg button {
+        font-size: 12px;
+    }
+
+    .cards .doctorInfo {
+        width: 100%;
+
+    }
+
+    .doctorInfo h6 {
+        font-size: 9px;
+        color: rgb(101, 100, 100);
+    }
+
+
+    .aboutPage .mission {
+        gap: 30px;
+        padding: 30px;
+    }
+
+    .mission p {
+        font-size: 14px;
+    }
+
+    .mission .endQuote {
+        font-size: 12px;
+    }
+}

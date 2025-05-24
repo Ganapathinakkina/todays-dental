@@ -22,7 +22,7 @@ const Navbar = () => {
             </div>
             <div className={menuClick ? "navLinks active" : "navLinks"}>
                 <Link to="/" >Home</Link>
-                <Link to="/" >About</Link>
+                <Link to="/about" >About</Link>
                 <Link to="/" >Services</Link>
                 <Link to="/" >Contact</Link>
             </div>

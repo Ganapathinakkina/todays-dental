@@ -1,18 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: #feffff;
-  }
+}
 
 
-  h1, h2, h3, h4, h5, h6, p, a{
-    font-family: "Poppins", sans-serif;
-    text-decoration: none;
-  }
-  
-  
+h1,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
 
+h2 {
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+  border: none;
+  outline: none;
+}
