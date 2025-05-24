@@ -5,6 +5,7 @@ import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
 import Services from './Pages/Services/Services'
 import Faq from './Components/Faq/Faq'
+import Footer from './Components/Footer/Footer'
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
           {/* <Route path='/contact' element={<Contact />} /> */}
           <Route path='/faq' element={<Faq/>} />
         </Routes>
-        
+        <Footer/>
       </Router>
       
     </>

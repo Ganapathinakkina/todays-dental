@@ -1,0 +1,143 @@
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    background-color: #ddecf8;
+}
+
+.footer .footerContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerContent .title {
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title img {
+    width: 50px;
+    height: 50px;
+}
+
+.title h3 {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #105da1;
+}
+
+.footerContent .quickLinks {
+    width: 55%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quickLinks h5 {
+    font-size: 18px;
+    color: orange;
+}
+
+.quickLinks .links {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.links .link {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link h6 {
+    font-size: 16px;
+    color: #105da1;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.link h6:hover {
+    transform: scale(1.04);
+}
+
+.links p {
+    font-size: 12px;
+    color: #3576af;
+    transition: 0.3s;
+}
+
+.links p:hover {
+    transform: scale(1.04);
+}
+
+
+.footer .social{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: transparent;
+}
+.social img{
+    width: 30px;
+    height: 30px;
+    color: transparent;
+}
+
+
+
+@media(max-width:950px) {
+    .footer .footerContent {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .footerContent .title {
+        width: 100%;
+
+    }
+
+    .footerContent .quickLinks {
+        width: 100%;
+    }
+}
+
+@media(max-width:650px) {
+    .footer {
+        padding: 20px;
+    }
+
+    .footerContent .quickLinks {
+        gap: 10px;
+    }
+
+    .quickLinks .links {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .links .link {
+        width: 90%;
+    }
+}
