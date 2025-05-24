@@ -10,6 +10,7 @@ import Doctor4 from "../../assets/doctor4.png"
 
 import "./About.css"
 import SingleCard from "./SingleCard"
+
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

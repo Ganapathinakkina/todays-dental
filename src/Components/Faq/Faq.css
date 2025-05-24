@@ -1,0 +1,117 @@
+.faqPage {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #ddecf8;
+}
+
+.faqPage .heading {
+    font-size: 28px;
+    color: #105da1;
+    background-color: transparent;
+}
+
+.faqPage .faq {
+    width: 100%;
+    padding: 50px;
+}
+
+.faq .item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.item .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    box-shadow: 3px 2px 10px 1px rgb(176, 196, 202);
+    padding: 20px 30px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.item .wrapper:hover {
+    transform: scale(1.02);
+    box-shadow: 3px 2px 10px 1px rgb(133, 184, 200);
+}
+
+.wrapper .question {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    gap: 10px;
+}
+
+
+.question h3 {
+    font-size: 20px;
+    font-weight: 500;
+    background-color: transparent;
+    color: #013a6d;
+}
+
+.wrapper .question i {
+    color: orange;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+    background-color: transparent;
+}
+
+.answers {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s cubic-bezier(0, 1, 0, 1);
+    background-color: transparent;
+}
+
+.answers p {
+    font-size: 16px;
+}
+
+.show {
+    height: auto;
+    max-height: 99999px;
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+    background-color: transparent;
+}
+
+.reverse {
+    transform: rotate(180deg);
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+@media(max-width:800px) {
+    .faqPage .faq {
+        padding: 50px 100px;
+    }
+}
+
+@media(max-width:600px) {
+    .faqPage {
+        padding: 20px;
+    }
+
+    .faqPage .faq {
+        padding: 20px;
+    }
+
+    .question h3 {
+        font-size: 16px;
+    }
+
+    .answers p {
+        font-size: 12px;
+    }
+}
