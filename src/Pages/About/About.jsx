@@ -14,6 +14,7 @@ import SingleCard from "./SingleCard"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Faq from "../../Components/Faq/Faq"
 
 const About = () => {
 
@@ -107,6 +108,7 @@ const About = () => {
           From your first consultation to your ongoing care, we aim to create a relaxed environment where you feel heard, valued, and supported.</p>
         <p className="endQuote">We don’t just create beautiful smiles — we build lasting confidence and lifelong health.</p>
       </div>
+      <Faq/>
     </div>
   )
 }

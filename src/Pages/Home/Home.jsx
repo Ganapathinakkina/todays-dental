@@ -1,4 +1,6 @@
 import "./Home.css"
+import Faq from "../../Components/Faq/Faq"
+
 import Teeth from "../../assets/teeth.jpg"
 import Option1 from "../../assets/optionImg1.png"
 import Option2 from "../../assets/optionImg2.png"
@@ -61,6 +63,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Faq/>
     </div>
   )
 }

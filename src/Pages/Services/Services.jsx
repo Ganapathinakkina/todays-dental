@@ -9,6 +9,7 @@ import ServiceCardImg6 from "../../assets/serviceCardImg6.png"
 import ServiceCardImg7 from "../../assets/serviceCardImg7.png"
 import ServiceCardImg8 from "../../assets/serviceCardImg8.png"
 import ServiceCardImg9 from "../../assets/serviceCardImg9.png"
+import Faq from "../../Components/Faq/Faq";
 
 
 const Services = () => {
@@ -81,6 +82,7 @@ const Services = () => {
                     })
                 }
             </div>
+            <Faq/>
         </div>
     )
 }

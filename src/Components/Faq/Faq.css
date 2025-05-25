@@ -30,6 +30,7 @@
 }
 
 .item .wrapper {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,7 +101,7 @@
 
 @media(max-width:600px) {
     .faqPage {
-        padding: 20px;
+        padding: 10px;
     }
 
     .faqPage .faq {
