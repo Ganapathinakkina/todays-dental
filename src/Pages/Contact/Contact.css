@@ -1,0 +1,111 @@
+.contactPage {
+    background: #ddecf8;
+    padding: 40px 50px;
+}
+
+.contactContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 50px;
+}
+
+.contactForm {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contactForm h2 {
+    font-size: 28px;
+    text-align: center;
+    color: #105da1;
+    margin-bottom: 30px;
+    background-color: transparent;
+}
+
+.contactForm input,
+.contactForm textarea {
+    padding: 10px;
+    border: 1px solid #c1dbf7;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+    box-shadow: 1px 1px 5px 1px rgb(178, 223, 238);
+}
+
+.contactForm input:hover,
+.contactForm textarea:hover {
+    border: 1px solid rgb(252, 210, 132);
+    box-shadow: 1px 1px 5px 1px rgb(244, 206, 135);
+}
+
+.contactForm button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contactForm button:hover {
+    transform: scale(1.02);
+    background-color: #0570db;
+}
+
+.contactInfo {
+    width: 45%;
+}
+
+.contactInfo h3 {
+    font-size: 20px;
+    color: #105da1;
+    margin-bottom: 15px;
+}
+
+.contactInfo p {
+    font-size: 14px;
+    margin: 8px 0;
+    color: #6c6a6a;
+}
+
+.contactInfo p strong {
+    color: #127ddb;
+}
+
+.contactInfo iframe {
+    width: 80%;
+    height: 180px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+
+@media(max-width:700px) {
+    .contactPage {
+    background: #ddecf8;
+    padding: 20px;
+}
+    .contactContainer {
+        padding: 20px;
+    }
+
+    .contactForm {
+        width: 100%;
+    }
+
+    .contactInfo {
+        width: 100%;
+    }
+
+    .contactInfo iframe {
+        width: 100%;
+    }
+}

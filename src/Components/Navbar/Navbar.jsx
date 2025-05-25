@@ -24,7 +24,7 @@ const Navbar = () => {
                 <Link to="/" >Home</Link>
                 <Link to="/about" >About</Link>
                 <Link to="/services" >Services</Link>
-                <Link to="/" >Contact</Link>
+                <Link to="/contact" >Contact</Link>
             </div>
             <div className="hamburger" onClick={menuHandleClick}>
                 {

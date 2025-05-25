@@ -18,14 +18,13 @@
 }
 
 .logo img {
-    width: 100px;
+    width: 130px;
     height: 100%;
     background-color: transparent;
 }
 
 .navbar .navLinks {
     width: 70%;
-    /* height: 100%; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
